@@ -1,0 +1,59 @@
+- https://jacksongomesbr.gitbooks.io/desenvolvimento-web-front-end-com-angular/conceitos-iniciais/iniciando-com-o-angular.html
+
+- instalar: visual studio code, nodeJs, Angular CLI
+
+- curso angular 8 udemy: https://www.udemy.com/course/angularcompleto/
+
+- Angular tutorial: https://angular.io/tutorial
+
+- visual studio tutorial: https://code.visualstudio.com/docs/nodejs/angular-tutorial
+
+- Biblioteca - PrimeNG
+
+- NodeJS - construir aplicações em java script que rodam no servidor
+   * não precisa do node pra rodar a aplicação, mas é necessário em tempo de desenvolvimento.
+     Quando gera o build não precisa mais do node, roda o java script direto no navegador
+
+- npm - gerenciador de pacotes para java script (como se fosse o maven para java script)
+	* adicionar dependencias no projeto
+
+
+Angular CLI - ferramenta de linha de comando para criar aplicações angular e ajudar em tarefas repetitivas, como por exemplo criar o projeto.
+ex - cricar componentes, diretivas.
+
+link: https://angular.io/cli
+
+criar novo projeto: ng new nomeProjeto
+
+subir projeto: ng serve
+
+
+Componentes:
+-> criar na mão: 
+
+- criar pasta em app com o nome do componente e arquivo nome.component.ts
+
+- quando o template é no maximo 3 linhas usando crase. Escrever no proprio template, sem criar um arquivo html separado.
+
+- declarar componene no app.module.ts : declarations
+
+- adicionar o seletor no app.component.html ex <app-hello></app-hello>
+
+-> criando pelo angular CLI:
+
+- ng generate component ou ng g c nome-componente
+
+para não criar o arquivo de teste unitário colocar o parametro --spec=false
+
+- arquivo app.component.spec.ts: arquivo para testes unitários
+
+
+instalar Bootstrap no projeto:
+
+npm install bootstrap@next --save
+
+adiciona código bootstrap no projeto: 
+
+-> arquivo angular.json em styles add: "./node_modules/bootstrap/dist/css/bootstrap.css"
+
+parei 9.7
