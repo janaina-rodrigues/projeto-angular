@@ -1,1 +1,17 @@
-<app-hello></app-hello>
+<div class="container">
+
+    <div class="alert alert-primary" role="alert">
+        Funcionário adicionado: <strong> {{nome}}</strong>
+      </div>
+
+    <form>
+        <div class="form-group">
+          <label for="formGroupExampleInput">Nome</label>
+          <input type="text" class="form-control" #nomeInput>
+        </div>
+    </form>
+
+    <button type="button" class="btn btn-primary"  (click)= "adicionar(nomeInput.value)">Adicionar</button>
+
+
+</div>
