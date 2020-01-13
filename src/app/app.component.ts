@@ -1,5 +1,6 @@
 import { Component, Input } from '@angular/core';
 
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -7,8 +8,10 @@ import { Component, Input } from '@angular/core';
 })
 export class AppComponent {
   nome = 'Janaina';
-  
-  adicionar(nome: string){
-      this.nome = nome;
+  adicionado = false;
+
+  adicionar() {
+    console.log(`Adicionado: ${this.nome}`);
+    this.adicionado = true;
   }
 }

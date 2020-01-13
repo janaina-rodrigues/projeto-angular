@@ -27,6 +27,7 @@ criar novo projeto: ng new nomeProjeto
 
 subir projeto: ng serve
 
+parei 9.13
 
 Componentes:
 -> criar na mão: 
@@ -56,4 +57,89 @@ adiciona código bootstrap no projeto:
 
 -> arquivo angular.json em styles add: "./node_modules/bootstrap/dist/css/bootstrap.css"
 
-parei 9.7
+usar ngModel:
+
+importar modulo FormsModule em app.modules.ts
+
+- diretivas:
+
+-> diretiva estrutural : *ngIf = "adicionado" ou [hidden] = "!adicionado"
+
+-> ngStyle
+
+Event:
+
+EventEmitter - usar decorator @Output
+
+- comunicação de componentes
+
+
+Extensões:
+
+-> tsLint: node_modules/tsli
+   node_modules/tslint/bin/tslint -- project tslint.json
+
+  verificar possíveis erros no projeto
+
+  instalar extensão TsLint
+
+-> .editorConfig 
+
+
+-> HTML Snippets
+
+-> Auto Import - usar ctrl + space para importar .
+
+
+Bibliotecas:
+
+ -> https://material.angular.io/
+
+-> https://ng-bootstrap.github.io/#/home
+
+-> http://angular2-materialize.surge.sh/#/Buttons
+
+-> https://valor-software.com/ngx-bootstrap/#/documentation#getting-started
+
+-> https://www.primefaces.org/primeng/#/
+
+
+Instalar PrimeNG:
+seguir a documentaçãoi de instalação
+
+-> npm install primeng --save
+
+-> adicionar fontawesome : dependencia do primeNG 
+fontawesome.io
+
+ou 
+
+-> adicionar primeIcons : dependencia do primeNG (mais atual)
+npm install primeicons --save
+npm install fontawesome --save
+
+
+Erro ao subir servidor: The serve command requires to be run in an Angular project, but a project definition could not be found.
+verificar se está na pasta correta
+
+Estilos globais:
+
+styles.css
+
+"ui-fluid" - campos filhos dessa div ocuparam 100% do espaço
+
+style="display: block"> - label quebrar uma linha
+
+parei 10.4
+
+
+tstomnina@gmail.com
+
+tstomnia@gmail.com
+
+
+
+
+
+
+
